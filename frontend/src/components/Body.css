@@ -1,0 +1,696 @@
+
+@media only  screen and (max-width : 2000px){
+    .BodyLeftCol {
+        float: left;
+        margin-top: 20px;
+        vertical-align: center;
+        height: 750px;
+        width: 20%;
+        overflow: auto;
+        overflow-x: hidden;
+        
+      
+    
+    }
+    .BodyCentreCol {
+
+    
+        height: 750px;
+        overflow: auto;
+        overflow-x: hidden;
+        margin-top: 20px;
+         vertical-align: center;
+        width: 65%;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: rgb(47, 47, 47);
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .BodyCentreColMain{
+    
+        height: 750px;
+        overflow: auto;
+        overflow-x: hidden;
+        margin-top: 20px;
+         vertical-align: center;
+        width: 65%;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: rgb(47, 47, 47);
+        
+    }
+    .BodyRightCol {
+   
+        float: right;
+        margin-top: 20px;
+        vertical-align: center;
+        height: 750px;
+        width: 14%;
+        overflow: auto;
+        overflow-x: hidden;
+    
+    }
+    .yourchats{
+        margin-top: 5px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .usersChats{
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 20px -23px rgba(0, 0, 0, .6),
+        23px 0 20px -23px rgba(0, 0, 0, .6),
+        inset 0 0 40px rgba(0, 0, 0, .1);
+       margin-top: 10px;
+       
+    }
+    .usersChats:hover{
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 30px -23px rgba(0, 0, 0, .6),
+        23px 0 30px -23px rgba(0, 0, 0, .6),
+        inset 0 0 120px rgba(0, 0, 0, .1);
+        transition: .2s;
+    
+    }
+    .message-blue {
+    
+        position: relative;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #3f7597;
+        width: 280px;
+        height: 100%;
+        text-align: left;
+        font: 400 .9em 'Open Sans', sans-serif;
+        border: 1px solid #3f7597;
+        border-radius: 10px;
+        margin-left: right;
+    }
+    
+    .message-orange {
+        
+        position: relative;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: 30px;
+        padding: 10px;
+        background-color: #0b1729;
+        width: 300px;
+        height: 100%;
+        text-align: right;
+        font: 400 .9em 'Open Sans', sans-serif;
+        border: 1px solid #11243f;
+        border-radius: 10px;
+    }
+    .DataforLog{
+        text-align: center;
+        font-size: 14px;
+    }
+    .butSend{
+        cursor: pointer;
+        height: 48px;
+        width: 48px;
+        color: white;
+        border-radius: 50%;
+        border: 1px solid rgb(133, 131, 131);
+        background-color: #92add8;
+     }
+     .butSend:hover{
+        height: 48px;
+        width: 48px;
+        color: white;
+        border-radius: 50%;
+        box-shadow: rgba(158, 188, 202, 0.16) 0px 5px 18px 0px, rgba(175, 208, 216, 0.06) 0px 0px 0px 1px;
+        transition: ease .35s;
+        border: 1px solid rgb(133, 131, 131);
+        background-color: #92add8;
+     }
+     .PlsLog{
+        text-align: center;
+        font-size: 34px;
+    }
+
+}
+@media only  screen and (max-width : 1100px){
+    .BodyCentreColMain{
+    
+        height: 750px;
+        overflow: auto;
+        overflow-x: hidden;
+        margin-top: 20px;
+         vertical-align: center;
+        width: 65%;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: rgb(47, 47, 47);
+        
+    }
+    .BodyLeftCol {
+        float: left;
+        margin-top: 20px;
+        vertical-align: center;
+        height: 750px;
+        width: 20%;
+        overflow: auto;
+        overflow-x: hidden;
+        
+      
+    
+    }
+    .BodyCentreCol {
+
+    
+        height: 750px;
+        overflow: auto;
+        overflow-x: hidden;
+        margin-top: 20px;
+         vertical-align: center;
+        width: 65%;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: rgb(47, 47, 47);
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .BodyRightCol {
+   
+        float: right;
+        margin-top: 20px;
+        vertical-align: center;
+        height: 750px;
+        width: 14%;
+        overflow: auto;
+        overflow-x: hidden;
+    
+    }
+    .yourchats{
+        margin-top: 5px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .usersChats{
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 20px -23px rgba(0, 0, 0, .6),
+        23px 0 20px -23px rgba(0, 0, 0, .6),
+        inset 0 0 40px rgba(0, 0, 0, .1);
+       margin-top: 10px;
+       
+    }
+    .usersChats:hover{
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 30px -23px rgba(0, 0, 0, .6),
+        23px 0 30px -23px rgba(0, 0, 0, .6),
+        inset 0 0 120px rgba(0, 0, 0, .1);
+        transition: .2s;
+    
+    }
+    .message-blue {
+    
+        position: relative;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #3f7597;
+        width: 260px;
+        height: 100%;
+        text-align: left;
+        font: 400 .9em 'Open Sans', sans-serif;
+        border: 1px solid #3f7597;
+        border-radius: 10px;
+        margin-left: right;
+    }
+    
+    .message-orange {
+        
+        position: relative;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: 30px;
+        padding: 10px;
+        background-color: #0b1729;
+        width: 260px;
+        height: 100%;
+        text-align: right;
+        font: 400 .9em 'Open Sans', sans-serif;
+        border: 1px solid #11243f;
+        border-radius: 10px;
+    }
+    .DataforLog{
+        text-align: center;
+        font-size: 10px;
+    }
+    .butSend{
+        cursor: pointer;
+        height: 48px;
+        width: 48px;
+        color: white;
+        border-radius: 50%;
+        border: 1px solid rgb(133, 131, 131);
+        background-color: #92add8;
+     }
+     .butSend:hover{
+        height: 48px;
+        width: 48px;
+        color: white;
+        border-radius: 50%;
+        box-shadow: rgba(158, 188, 202, 0.16) 0px 5px 18px 0px, rgba(175, 208, 216, 0.06) 0px 0px 0px 1px;
+        transition: ease .35s;
+        border: 1px solid rgb(133, 131, 131);
+        background-color: #92add8;
+     }
+     .PlsLog{
+        text-align: center;
+        font-size: 24px;
+    }
+
+}
+@media only  screen and (max-width : 394px){
+    .BodyLeftCol {
+        float: left;
+        margin-top: 20px;
+        vertical-align: center;
+        height: 100%;
+        width: 25%;
+        overflow: auto;
+        overflow-x: hidden;
+        
+      
+    
+    }
+    .BodyCentreColMain{
+    
+        height: 100%;
+        overflow: auto;
+        overflow-x: hidden;
+        margin-top: 20px;
+         vertical-align: center;
+        width: 65%;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: rgb(47, 47, 47);
+        
+    }
+    .BodyCentreCol {
+
+    
+        height: 100%;
+        overflow: auto;
+        overflow-x: hidden;
+        margin-top: 20px;
+         vertical-align: center;
+        width: 74%;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: rgb(47, 47, 47);
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .BodyRightCol {
+       
+        display: none;
+    
+    }
+    .yourchats{
+        margin-top: 5px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .usersChats{
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 20px -23px rgba(0, 0, 0, .6),
+        23px 0 20px -23px rgba(0, 0, 0, .6),
+        inset 0 0 40px rgba(0, 0, 0, .1);
+       margin-top: 10px;
+       font-size: 10px;
+       
+    }
+    .usersChats:hover{
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 30px -23px rgba(0, 0, 0, .6),
+        23px 0 30px -23px rgba(0, 0, 0, .6),
+        inset 0 0 120px rgba(0, 0, 0, .1);
+        transition: .2s;
+    
+    }
+    .message-blue {
+    
+        position: relative;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #3f7597;
+        width: 140px;
+        height: 100%;
+        text-align: left;
+        font: 400 .9em 'Open Sans', sans-serif;
+        border: 1px solid #3f7597;
+        border-radius: 10px;
+        margin-left: right;
+    }
+    
+    .message-orange {
+        
+        position: relative;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: 10px;
+        padding: 10px;
+        background-color: #0b1729;
+        width: 140px;
+        height: 100%;
+        text-align: right;
+        font: 400 .9em 'Open Sans', sans-serif;
+        border: 1px solid #11243f;
+        border-radius: 10px;
+    }
+    .DataforLog{
+        text-align: center;
+        font-size: 10px;
+    }
+    .butSend{
+        cursor: pointer;
+        height: 28px;
+        width: 28px;
+        color: white;
+        border-radius: 50%;
+        border: 1px solid rgb(133, 131, 131);
+        background-color: #92add8;
+     }
+     .butSend:hover{
+        height: 28px;
+        width: 28px;
+        color: white;
+        border-radius: 50%;
+        box-shadow: rgba(158, 188, 202, 0.16) 0px 2px 9px 0px, rgba(175, 208, 216, 0.06) 0px 0px 0px 1px;
+        transition: ease .35s;
+        border: 1px solid rgb(133, 131, 131);
+        background-color: #92add8;
+     }
+     .PlsLog{
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
+
+.message-reply{
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: #0b1729;
+    width: 240px;
+    height: 100%;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+   
+    border: 1px solid #0b1729;
+    border-radius: 10px;
+}
+
+.BodyRow {
+   
+ 
+    display: flex;
+   
+    width: 100%;
+  
+    color: white;
+   
+}
+
+
+.img{
+  
+    display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+.RightAvatar{
+    animation: 2s show ease;
+    display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.RightNickNames{
+    margin-top: 9px;
+    font-size: 15px;
+    text-align: center;
+}
+.AvatarName{
+    cursor: pointer;
+    display: flex;
+    align-items: center ;
+       
+   
+   
+}
+.FetchData{
+    opacity: 0.6;
+    display:flex;
+  align-items:center;
+  justify-content: center;
+  border: 1px solid;
+  border-color: #464236;
+  cursor: pointer;
+  background-color: #267c24;
+  
+}
+.textArea{
+  
+    animation: 1s show ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    align-items:center;
+    justify-content: center;
+    font-size: 14px;
+    opacity: .7;
+    background: rgb(24, 24, 24);
+    color: white;
+    overflow: auto;
+    
+}
+.container {
+    animation: 1s show ease;
+    width: 100%;
+   
+    padding: 10px;
+}
+.UserNick{
+   margin-left: auto;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    
+}
+
+.message-Rres{
+    
+    position: relative;
+    margin-bottom: 5px;
+    max-width: 24em; /* блок занимает ширину родителя, max-width её ограничивает */
+  
+    min-height: 2em;
+   
+    
+    padding: 10px;
+    background-color: #3f7597;
+    
+    font-size: 9px;
+
+ 
+    border: 1px solid #3f7597;
+    border-radius: 10px;
+}
+.message-ReplyR{
+    
+    position: relative;
+    margin-bottom: 5px;
+    max-width: 24em; /* блок занимает ширину родителя, max-width её ограничивает */
+  
+    min-height: 2em;
+    margin-left: auto;
+    margin-right: 30px;
+    
+    padding: 10px;
+    background-color: #3f7597;
+    
+    font-size: 9px;
+
+ 
+    border: 1px solid #3f7597;
+    border-radius: 10px;
+}
+.message-res{
+    
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: #0b1729;
+    width: 240px;
+    height: 100%;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+   
+    border: 1px solid #3f7597;
+    border-radius: 10px;
+}
+.message-req{
+   
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #9c8657;
+
+    display: inline-block;
+
+ 
+    border: 1px solid #3f7597;
+    border-radius: 10px;
+}
+
+
+.message-content {
+   
+    padding: 0;
+    margin: 0;
+}
+
+.message-timestamp-right {
+    position: relative;
+    font-size: .65em;
+    font-weight: 100;
+    top: 5px;
+    left: 6px;
+    float: right;
+   
+}
+.message-timestamp {
+    position: relative;
+    font-size: .65em;
+    font-weight: 100;
+   
+    
+    
+    left: 15px;
+}
+
+.message-timestamp-left {
+    position: relative;
+    font-size: .65em;
+    font-weight: 100;
+    top: 5px;
+    left: 5px;
+    float: left;
+}
+
+.message-blue:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid #3f7597;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    top: 0;
+    left: -15px;
+}
+
+.message-blue:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 17px solid rgb(77, 113, 134);
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    top: -1px;
+    left: -17px;
+}
+
+.message-orange:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #0f213b;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    bottom: 0;
+    right: -15px;
+}
+
+.message-orange:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid #0f3777;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    bottom: -1px;
+    right: -17px;
+}
+
+
+.pagination{
+    font-size: large;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    cursor: pointer;
+ }
+ .pagination a{
+   
+    padding: 10px;
+    
+    color:#b19e66;
+  }
+  
+ .Link{
+     font-weight: bold;
+ }
+ 
+ 
+ .disbledPage a{
+     color: #464236;
+     
+ }
+ 
+ .activePage {
+   
+     border: 1px solid #b19e66;
+     
+ }
+ .pages:hover{
+     border: 1px solid #b19e66;
+     
+ }
+
+
+
+ 
+
+ @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }

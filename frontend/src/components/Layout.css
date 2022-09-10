@@ -1,0 +1,29 @@
+
+@media only  screen and (max-width : 1930px){
+  .layout{
+    background: linear-gradient(to top, #747985  -79%,  #3e3d5a 122%);
+    height: 100%;
+  }
+
+}
+
+
+@media only  screen and (max-width : 1441px){
+  .layout{
+    background: linear-gradient(to top, #747985  -79%,  #3e3d5a 122%);
+    height: 100%;
+  }
+}
+@media only  screen and (max-width : 1025px){
+  .layout{
+    background: linear-gradient(to top, #747985  -79%,  #3e3d5a 122%);
+    height: 100%;
+  }
+}
+
+@media only  screen and (max-width : 394px){
+  .layout{
+    background: linear-gradient(to top, #747985  -79%,  #3e3d5a 122%);
+    height: 100%;
+  }
+}
